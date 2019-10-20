@@ -294,7 +294,6 @@
     <Compile Include="Controllers\RegisterController.cs" />
     <Compile Include="Controllers\StartPageController.cs" />
     <Compile Include="Controllers\VideoFileController.cs" />
-    <Compile Include="EpiKitty\CatFun.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -346,8 +345,6 @@
     <Content Include="ClientResources\Scripts\Editors\StringList.js" />
     <Content Include="ClientResources\Styles\LayoutIcons.css" />
     <Content Include="ClientResources\Styles\Styles.css" />
-    <Content Include="EpiKitty\CatFun.js" />
-    <Content Include="EpiKitty\kitten.png" />
     <Content Include="favicon.ico" />
     <Content Include="Readme.txt" />
     <Content Include="Resources\LanguageFiles\ContentTypeNames.xml" />

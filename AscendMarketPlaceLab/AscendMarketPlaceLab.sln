@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AscendMarketPlaceLab", "AscendMarketPlaceLab\AscendMarketPlaceLab.csproj", "{22FA0128-1C41-4F1C-8156-B25AE5E3BA88}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ascend.EpiKitty", "Ascend.EpiKitty\Ascend.EpiKitty.csproj", "{B67526FB-31F1-4D29-9D9D-36E9EF321E85}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{22FA0128-1C41-4F1C-8156-B25AE5E3BA88}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{22FA0128-1C41-4F1C-8156-B25AE5E3BA88}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{22FA0128-1C41-4F1C-8156-B25AE5E3BA88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B67526FB-31F1-4D29-9D9D-36E9EF321E85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B67526FB-31F1-4D29-9D9D-36E9EF321E85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B67526FB-31F1-4D29-9D9D-36E9EF321E85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B67526FB-31F1-4D29-9D9D-36E9EF321E85}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
