@@ -105,6 +105,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
+    <None Include="Ascend.EpiKitty.nuspec" />
     <None Include="Content\modules\_protected\Ascend.EpiKitty\module.config" />
     <None Include="packages.config" />
   </ItemGroup>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Ascend.EpiKitty</id>
+    <title>Episervers Kitten</title>
+    <version>1.0.0.0000</version>
+    <authors>Me, myself and I</authors>
+    <owners>Me</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>The Episerver equivalent of Schrödinger's cat.</description>
+    <releaseNotes>
+      It works - mostly
+    </releaseNotes>
+    <copyright>Copyright 2019</copyright>
+    <tags>EPiServerModulePackage EPiServerAddon EPiServer</tags>
+    <dependencies>
+      <dependency id="EPiServer.CMS.Core" version="[11.13.0,12.0.0)" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="Content/modules/_protected/Ascend.EpiKitty/*" target="content\modules\_protected\Ascend.EpiKitty" />
+  </files>
+</package>
