@@ -1,17 +1,15 @@
-﻿using AscendMarketPlaceLab.Business;
 using EPiServer;
 using EPiServer.Core;
 using EPiServer.Framework.Cache;
 using EPiServer.Framework.Web.Resources;
-using EPiServer.ServiceLocation;
 using EPiServer.Web.Routing;
 using System;
-using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
 namespace AscendMarketPlaceLab.EpiKitty
 {
+
     [ClientResourceRegistrator]
     public class CatFun : IClientResourceRegistrator
     {
@@ -26,11 +24,9 @@ namespace AscendMarketPlaceLab.EpiKitty
                 var cref = _cache.Get<ContentReference>("Kitty", ReadStrategy.Immediate);
                 if (cref == null)
                 {
-                    var lst = _repo.GetDescendents(ContentReference.StartPage)
-                        .Take(200).Where(cr => !cr.CompareToIgnoreWorkID(ContentReference.StartPage))
-                        .Select(cr => _repo.Get<PageData>(cr)).FilterForDisplay(true, true).ToList();
+                    var lst = _repo.GetDescendents(ContentReference.StartPage).Take(200).ToList();
                     Random R = new Random();
-                    cref = lst[R.Next(lst.Count)].ContentLink;
+                    cref = lst[R.Next(lst.Count)];
                     _cache.Insert("Kitty", cref, new CacheEvictionPolicy(new TimeSpan(2, 0, 0), CacheTimeoutType.Absolute));
                 }
                 return cref;
@@ -56,4 +52,5 @@ namespace AscendMarketPlaceLab.EpiKitty
             }
         }
     }
+
 }
