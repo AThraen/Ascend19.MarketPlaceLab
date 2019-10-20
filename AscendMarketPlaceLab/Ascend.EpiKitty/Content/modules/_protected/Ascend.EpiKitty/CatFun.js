@@ -8,7 +8,7 @@
 window.onload = function() {
 	var img = document.createElement('img');
 	img.setAttribute("style", "position:absolute;");
-	img.setAttribute("src", "/EpiKitty/kitten.png");
+	img.setAttribute("src", kittypath);
     document.body.appendChild(img);
     img.onclick = function () { alert("Yeah! You found me! Well done. Come back later and see if you can find my new hiding place.");};
 	var xy = getRandomPosition(img);
