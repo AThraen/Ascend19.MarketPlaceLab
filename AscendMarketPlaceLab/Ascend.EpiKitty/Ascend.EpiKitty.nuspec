@@ -18,6 +18,9 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="Content/modules/_protected/Ascend.EpiKitty/*" target="content\modules\_protected\Ascend.EpiKitty" />
+    <file src="Content/modules/_protected/Ascend.EpiKitty/CatFun.js" target="content\modules\_protected\Ascend.EpiKitty\CatFun.js" />
+    <file src="Content/modules/_protected/Ascend.EpiKitty/kitten.png" target="content\modules\_protected\Ascend.EpiKitty\kitten.png" />
+    <file src="Content/modules/_protected/Ascend.EpiKitty/module.config" target="content\modules\_protected\Ascend.EpiKitty\module.config" />
+    <file src="web.config.transform" target="content" />
   </files>
 </package>
